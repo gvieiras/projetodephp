@@ -11,19 +11,17 @@
     
     <script src="js/jquery-3.1.1.min.js"></script>
     <style>
-    .row{
-        width:100%;
-    }    
+        .row{
+            width:100%;
+        }    
     
-    .cadastro-material{
-    width:50%;
-    background-color:white;
-    float:left;
-    margin-left:25%;
-    margin-bottom:25%;
-    }
-    
-    
+        .cadastro-material{
+            width:50%;
+            background-color:white;
+            float:left;
+            margin-left:25%;
+            margin-bottom: 10%;
+        }
     </style>
     </head>
     
@@ -38,13 +36,12 @@
                         </h1></li>
                 </div>
                     
-                <!--tirar css inline dps-->    
-                <div class="col-md-2" style="text-align:right">
-                        <a href="https://php-yolatengo.c9users.io/ci/artistas"><li style="margin:0">artistas  <span class="glyphicon glyphicon-sunglasses"></span></li></a>
+                <div class="col-md-2">
+                        <a href="https://php-yolatengo.c9users.io/ci/artistas"><li>artistas  <span class="glyphicon glyphicon-sunglasses"></span></li></a>
                     </div>
                         
-                    <div class="col-md-2" style="text-align:center"> 
-                        <a href="https://php-yolatengo.c9users.io/ci/eventos"><li style="margin:0">eventos  <span class="glyphicon glyphicon-calendar"></span></li></a>
+                    <div class="col-md-2"> 
+                        <a href="https://php-yolatengo.c9users.io/ci/eventos"><li>eventos  <span class="glyphicon glyphicon-calendar"></span></li></a>
                     </div>
                     
                     <div class="col-md-2">
@@ -70,6 +67,10 @@
                       <input type="date" id="dt_evento" name="dt_evento" required/>
                   </p>
                   
+                  <p>
+                        <label for="ds_bandas">Bandas que irão se apresentar (separe-as por vírgula):</label> 
+                        <textarea rows="4" cols="50" name="ds_bandas" id="ds_bandas"></textarea>
+                  </p>
                  
                         <input type="submit" id="botao_Enviar" name="cmdSend" value="enviar"/>
                   </p>
@@ -77,12 +78,11 @@
                   
             </form>
         </div>
-    
         </div>
-        <footer>
-            &copy;Palco Caiçara  |  Desenvolvido por blablabla
-        </footer>
         
+        <footer>
+            &copy;Palco Caiçara  |  Desenvolvido por Gabriel Vieira, Lucas Maurício, Nathália Fonseca
+        </footer>
     <script src="js/bootstrap.js"></script>  
     </body>
 </html>
