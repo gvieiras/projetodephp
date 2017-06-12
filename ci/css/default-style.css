@@ -1,0 +1,624 @@
+#text-caicara {
+    color:#FF6600;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:link, a:visited, a:active{
+    color:white;
+}
+
+a:hover{
+    color:white;
+    text-decoration:none;
+}
+
+
+@font-face {
+    font-family:'BreeSerif';
+    src: url('../fonts/BreeSerif-Regular.ttf');
+}
+
+body {
+    background-color:#dddddd;
+    font-family:BreeSerif, sans-serif;
+    color:black;
+    
+   
+}
+.artistaBotao{
+    border:0;background-color:transparent;padding:0;
+}
+
+
+#alfabeto{
+    text-align: center;
+    background-color: #FF6600;
+ 
+}
+#alfabeto>a:hover{
+   background-color:white;
+}
+
+#alfabeto>a{
+    color:black;
+}
+
+#num{
+    text-align: center;
+    background-color: #FF6600;    
+}
+
+#num>a{
+    color:black;
+}
+
+#num>a:hover{
+    color:white;
+}
+
+
+
+#formulario{
+    width:100%;
+    float:left;
+    margin:0 auto;
+    margin-bottom: 15%;
+}
+
+#formulario-cadastrar{
+    width:50%;
+    float:left;
+    margin:0 auto;
+    left:15%;
+    position: relative;
+    margin-top:5%;
+    margin-bottom: 15%;
+    height:100%;
+}
+
+#caixaCadastro{
+    /*background-color:yellow;*/
+    width:50%;
+    float:left;
+}
+
+#caixaLogin{
+    background-color:#FF6600;
+    position:relative;
+    width:25%;
+    float:right;
+    margin-top:5%;
+    margin-right:10%;
+}
+
+.logue-h1{
+    margin:50px;
+}
+
+.cadastro-h1{
+    position:absolute;
+    top:-20px;
+    padding:10px;
+    margin-right:10px;
+    background-color:#FF6600;
+    color:white;
+}
+
+
+form{
+    width:100%;
+    margin-top:30px;
+}
+
+form input{
+    width:70%;
+    border:2px solid gray;
+}
+
+form p,form fieldset{
+    font-size:18px;
+}
+
+input[type="radio"]{
+    width:10%;
+    display:inline;
+}
+
+form>input{
+    font-size:26px;
+    height:60px;
+    width:60%;
+    margin-bottom:10px;
+    border:0;
+    border-radius:10px;
+    background-color:Yellow;
+}
+
+form label{
+    display:block;
+}
+
+.botao_Enviar{
+     width:50px;
+     height:25px;
+     font-size:12px;
+     border:none;
+     background-color:#FF6600;
+     color:black;
+     border-radius:0;
+}
+
+
+form>textarea{
+    height:120px;
+    width:60%;
+    font-size:26px;
+    border:0;
+    border-radius:10px;
+    
+}
+
+#corpo{
+    margin-top:50px;
+}
+
+#contato{
+    width:100%;
+    height:400px;
+    background-color:#FF6600;
+}
+
+
+#sobre{
+    width:60%;
+    float:left;
+}
+
+#sobre>p{
+    font-size:26px;
+    margin-top:30px;
+    color:white;
+    margin-bottom:50px;
+}
+
+#sobre>p>a{
+    font-size:16px;
+    background-color:#C55003;
+    padding:10px;
+}
+
+#sobre>p>a:hover{
+    background-color:black;
+}
+
+#sobre img{
+    margin-left:30px;
+}
+
+#aesq div {
+    padding: 10px;
+}
+
+#adir div {
+    padding: 25px;
+}
+
+#aesq{
+    float:left;
+    background-color:#ff6600;
+    margin-left: 5%;
+}
+
+#adir{
+    float:left;
+    background-color:#ff6600;
+    margin-left: 10px;
+}
+
+
+#pesq {
+    background-color:white;
+    width:30%;
+    border:0;
+    
+}
+
+
+#btp {
+    background-color:black;
+    color:white;
+    border:none;
+}
+
+
+
+main {
+    width: 42%;
+    background-color: #fff;
+    margin-left: 35px;
+    padding: 10px;
+    float: left;
+    margin-bottom:35px;
+}
+
+#controle-fonte {
+   text-align: right;
+    
+}
+
+/*div>input{
+border:0;
+   color:black;
+   background-color:#FF6600;
+    transition: background-color 2s,color 2s;
+}*/
+
+/*div>input:hover{
+     color:#FF6600;
+     background-color:black;
+}*/
+
+.UltArtistaUnidade{
+    width:100%;
+    height:90px;
+    padding-left:20px;
+}
+
+.UltArtista h2{
+    font-size:18px;
+    margin:0;
+}
+
+.UltArtista p{
+    padding:0;
+    float:left;
+}
+
+.UltArtista img{
+    float:left;
+    margin-right:15px;
+}
+
+.UltArtista{
+    width:100%;
+}
+
+.artista{
+    width:20%;
+    float:left;
+}
+
+.artista>p{
+    background-color:#FF6600;
+}
+
+.ultimosArtistas{
+    width:95%;
+    margin-left:2.5%;
+    float:left;
+    margin-top:50px;
+    margin-bottom: 5%;
+}
+
+.ultimosArtistas p{
+    margin:0;
+    padding:0;
+}
+
+.ultimosArtistas tr td:last-child{
+    vertical-align:top;
+}
+
+.eeeTr{
+    background-color:#eee;
+}
+
+.ultimosArtistas tr td:first-child{
+    width:8.5%;
+}
+
+
+.ultimosArtistas td{
+    padding:1%
+}
+
+.ultimosArtistas td span{
+    font-size:100px;
+}
+
+
+.local{
+    width:100%;
+    height:120px;
+    padding-left:20px;
+}
+
+.local h2{
+    font-size:20px;
+    margin:0;
+}
+
+.local a{
+    background-color:#FF6600;
+    padding:2px;
+}
+
+.local p{
+    padding:0;
+    float:left;
+}
+
+
+
+aside {
+    width: 42%;
+    background-color: #fff;
+    margin-right: 35px;
+    padding: 10px;
+    float: right;
+}
+
+hr{
+    
+  border-top: 1px solid #FF6600;
+}
+
+div p{
+    padding-left:5%;
+}
+
+/* LINKS passar o mouse em cima fica branco*/
+header a:hover{
+    text-decoration:none;
+}
+
+header ul li{
+    list-style-type:none;
+    position:relative;
+    top:15px;
+    padding:10px;
+    display:inline;
+    font-size:16px;
+    background-color:black;
+    transition:background-color 0.5s;
+   
+}
+
+li:hover{
+    background-color:#FF6600;
+}
+
+
+ul{
+    display:inline;
+    padding:0;
+}
+
+li:first-child{
+    
+}
+
+li:nth-child(4){
+    margin-right:45%;
+}
+
+#palcocaicara{
+    background-color:black;
+    left:150px;
+}
+
+h1{
+    font-size:24px;
+    display:inline;
+    background-color:transparent;
+}
+
+h2{
+    font-size:26px;
+    margin-left:5%;
+    margin-bottom:5%;
+}
+
+
+
+.titulo{
+    padding:10px;
+    background-color:#FF6600;
+    z-index:50;
+}
+
+.titulo:first-child{
+    left:-20px;
+    top:-18px;
+    position:relative;
+}
+
+
+
+nav ul li:last-child{
+    color:black;
+}
+
+.botao {
+    background-color: #FF6600;
+    padding: 5px;
+    margin: 5px;
+    float: right;
+    color:black!important;
+    transition: background-color 0.5s,color 0.5s;
+
+}
+
+.botao:hover{
+     color:#FF6600!important;
+     background-color:black;
+}
+
+aside a {
+    color: #000;
+}
+
+header {
+    margin:0;
+    padding:10px;
+    background-color:black;
+}
+
+footer {
+	width: 100%;
+	height: auto;
+	background-color: #000;
+	color: white;
+	clear: both;
+	text-align: center;
+	margin: 0;
+    position:relative;
+    bottom:0;
+    top:100%;
+}
+
+#pesquisar-barra{
+    width:100%;
+    background-color:#FF6600;
+    padding:10px;
+    margin:0;
+    margin-bottom:25px;
+}
+
+
+#allFlyers>div:nth-child(2),.EmAltaColuna:nth-child(2){
+    margin-bottom:200px;
+}
+
+#allFlyers>div:first-child,.EmAltaColuna:first-child{
+    margin-right:40px;
+}
+
+#allFlyers>div:last-child,.EmAltaColuna:last-child{
+    margin-left:40px;
+}
+
+.EmAltaColuna td{
+    text-align:left!important;
+}
+
+.EmAltaColuna .tdheader{
+    width:15px;
+    padding:5px;
+}
+
+.EmAltaColuna tr:hover{
+    background-color:#FF6600;
+}
+
+#allFlyers,#EmAlta{
+    margin:0 auto;
+    width:980px;
+}
+
+.flyer,.EmAltaColuna{
+    width:300px;
+    height:600px;
+    background-color:white;
+    float:left;
+}
+
+#classificarTempo{
+    border:none;
+}
+
+.row{
+    width:99.9%;
+}
+
+
+.flyer tr:hover{
+    
+    background-color:orange;
+}
+
+h3{
+    margin-left:5px;
+}
+
+.flyer>p{
+    padding-left:5px;
+}
+
+.flyer>p>a{
+    background-color:#FF6600;
+    color:black;
+}
+
+#paginasFundo{
+    float:left;
+    width:100%;
+    background-color:#FF6600;
+    margin:0 auto;
+    margin-bottom:5%;
+    text-align:center;
+}
+
+#paginasFundo>a{
+    color:black;
+}
+
+#paginasFundo>a:hover{
+    background-color:white;
+}
+
+table{
+    width:100%;
+}
+
+.col-md-2:first-child {
+    text-align: right;
+}
+        
+.col-md-2:second-child {
+    text-align: center;
+}
+        
+.col-md-2 > a > li { 
+    margin: 0; 
+} 
+
+@media screen and (max-width: 991px) {
+    .col-md-2,.col-md3{
+        text-align:left!important;
+        
+    }
+    .titulo{
+    padding:0px;
+    left:0;
+    }
+    
+    header{
+        height:160px;
+    }
+    
+    header ul li{
+        background-color:transparent;
+    }
+    
+    header ul li:hover{
+        background-color:transparent;
+    }
+    
+    main{
+        width:100%;
+        margin:0;
+        margin-bottom:5%;
+    }
+    aside{
+        width:100%;
+        margin:0;
+    }
+    
+    .titulo:first-child{
+        left:0;
+    }
+}
