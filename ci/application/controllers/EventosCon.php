@@ -16,6 +16,13 @@ class EventosCon extends CI_Controller {
 		redirect('https://php-yolatengo.c9users.io/ci/eventos');
 	}
 	
+	public function excluir(){
+		$cd = $this->input->post('cd_evento');
+		$this->db->where('cd_evento',$cd);
+		$this->db->delete('eventos');
+		redirect('https://php-yolatengo.c9users.io/ci/eventos');
+	}
+	
 	public function update($cd=null){
 		$this->db->where('cd_evento',$cd);
 		$data['evento'] = $this->db->get('eventos')->result();
